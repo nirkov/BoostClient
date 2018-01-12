@@ -25,6 +25,7 @@ public:
             if (!(*CONNECTION_HANDLER).sendLine(line)) {
                 std::cout << "Disconnected. Exiting...\n" << std::endl;
                 break;
+                //ttttttttttttttttttttt
             }
         }
     };
